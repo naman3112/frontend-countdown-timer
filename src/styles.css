@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hours,
+.minutes,
+.seconds {
+  margin-right: 20px;
+  text-align: center;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn1,
+.btn2 {
+  padding: 20px 40px;
+  border-width: 2px;
+  margin-right: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.btn1 {
+  background-color: yellow;
+  color: black;
+}
+.btn2 {
+  background-color: orange;
+  color: white;
+}
